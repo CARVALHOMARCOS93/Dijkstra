@@ -71,7 +71,7 @@ namespace Dijkstra
             Dictionary<string, Vertice> y = new();
             while (x.Count > 0)
             {
-                //extrai e retorna o vértice com as arestas incidentes com menor custo até que o dicionário esteja vazio, vizando iterar todos os registros
+                //extrai e retorna o vértice com as arestas incidentes com menor custo até que o dicionário esteja vazio, visando iterar todos os registros
                 Vertice vert = ExtrairMinimo(x);
                 vert.Visitou = true;
 
